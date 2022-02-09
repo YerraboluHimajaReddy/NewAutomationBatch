@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-30T06:13:50 IST" name="Default suite" finished-at="2022-01-30T06:13:52 IST" duration-ms="1288">
+    <groups>
+    </groups>
+    <test started-at="2022-01-30T06:13:50 IST" name="Default test" finished-at="2022-01-30T06:13:52 IST" duration-ms="1288">
+      <class name="TestNg.DataProviders">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNg.DataProviders@55634720]" started-at="2022-01-30T06:13:38 IST" name="launchBrowser" finished-at="2022-01-30T06:13:50 IST" duration-ms="12156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="maximizeBrowser()[pri:0, instance:TestNg.DataProviders@55634720]" started-at="2022-01-30T06:13:50 IST" name="maximizeBrowser" finished-at="2022-01-30T06:13:51 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method signature="EnterField2(java.lang.String,java.lang.String)[pri:0, instance:TestNg.DataProviders@55634720]" started-at="2022-01-30T06:13:51 IST" name="EnterField2" data-provider="Values" finished-at="2022-01-30T06:13:51 IST" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterField2 -->
+        <test-method is-config="true" signature="maximizeBrowser()[pri:0, instance:TestNg.DataProviders@55634720]" started-at="2022-01-30T06:13:51 IST" name="maximizeBrowser" finished-at="2022-01-30T06:13:51 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method signature="EnterField2(java.lang.String,java.lang.String)[pri:0, instance:TestNg.DataProviders@55634720]" started-at="2022-01-30T06:13:51 IST" name="EnterField2" data-provider="Values" finished-at="2022-01-30T06:13:52 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Himaja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Himaja@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterField2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNg.DataProviders@55634720]" started-at="2022-01-30T06:13:52 IST" name="closeBrowser" finished-at="2022-01-30T06:13:52 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNg.DataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
