@@ -7,7 +7,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class DriverExtensions {
 
-   public WebDriver driver;
+   public WebDriver driver; 
 
 	public void launchBrowser(String browserName) {
 
